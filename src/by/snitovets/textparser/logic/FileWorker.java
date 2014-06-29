@@ -4,6 +4,7 @@ import by.snitovets.textparser.exception.TechnicalException;
 import org.apache.log4j.Logger;
 
 import java.io.*;
+import java.util.List;
 
 /**
  * Created by Илья on 25.06.2014.
@@ -50,6 +51,14 @@ public class FileWorker {
                 out.close();
             }
         }
+    }
+
+    public static void putTextToFile(List list, String fileName) throws TechnicalException {
+        StringBuilder text = new StringBuilder();
+        for (Object obj : list) {
+            text.append(obj).append("\n");
+        }
+        putTextToFile(text.toString(), fileName);
     }
 
 }

@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 /**
  * Created by Илья on 25.06.2014.
@@ -11,7 +12,6 @@ import java.util.Collection;
 public class Composite implements Component {
 
     private static final Logger LOG = Logger.getLogger(Composite.class);
-    Object object;
     private ArrayList<Component> components = new ArrayList<>();
 
     public Composite() {
@@ -39,6 +39,10 @@ public class Composite implements Component {
 
     public boolean addAll(Collection<? extends Component> components) {
         return this.components.addAll(components);
+    }
+
+    public Iterator<Component> iterator() {
+        return components.iterator();
     }
 
     public String toString() {
