@@ -1,0 +1,5 @@
+25.06.2014 18:14:47 [main] INFO  by.snitovets.textparser.main.Main  - [\n]?[ ]*[A-Z_a-z]+((\'|\-)[A-Z_a-z]+)*[ ]*[\n]?
+27.06.2014 19:53:16 [main] ERROR by.snitovets.textparser.main.Main  - IOException
+27.06.2014 19:53:34 [main] ERROR by.snitovets.textparser.main.Main  - by.snitovets.textparser.exception.TechnicalException: IOException
+27.06.2014 19:54:25 [main] ERROR by.snitovets.textparser.main.Main  - by.snitovets.textparser.exception.TechnicalException: IOException
+27.06.2014 20:31:54 [main] ERROR by.snitovets.textparser.main.Main  - by.snitovets.textparser.exception.TechnicalException: File Texts\text.txt not found

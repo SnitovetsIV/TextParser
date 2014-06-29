@@ -3,6 +3,7 @@ package by.snitovets.textparser.entity;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * Created by Илья on 25.06.2014.
@@ -10,27 +11,34 @@ import java.util.ArrayList;
 public class Composite implements Component {
 
     private static final Logger LOG = Logger.getLogger(Composite.class);
-
+    Object object;
     private ArrayList<Component> components = new ArrayList<>();
 
-    public void add(Component c) {
-        if (c != null) {
-            components.add(c);
+    public Composite() {
+    }
+
+    public void add(Component component) {
+        if (component != null) {
+            components.add(component);
         } else {
             LOG.warn("Component can not be null. Component didn't add.");
         }
     }
 
-    public void remove(Component c) {
-        if (c != null) {
-            if (components.remove(c)) {
-                LOG.info("Component " + c.toString() + " removed");
+    public void remove(Component component) {
+        if (component != null) {
+            if (components.remove(component)) {
+                LOG.info("Component " + component + " removed");
             } else {
-                LOG.info("Component " + c.toString() + " didn't remove");
+                LOG.info("Component " + component + " didn't remove");
             }
         } else {
             LOG.warn("Component can not be null. Component didn't remove.");
         }
+    }
+
+    public boolean addAll(Collection<? extends Component> components) {
+        return this.components.addAll(components);
     }
 
     public String toString() {
