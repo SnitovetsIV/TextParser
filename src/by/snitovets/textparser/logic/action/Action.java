@@ -19,7 +19,7 @@ public class Action {
 
     private static final Logger LOG = Logger.getLogger(Action.class);
 
-    private static final String VOWELS = "aeiouyAEIOUY";
+    private static final String VOWELS = "aeiouyjAEIOUYJ";
 
     public static ArrayList<String> sortWordsByProportionOfVowels(Composite text) throws LogicException {
         if (text == null) {
