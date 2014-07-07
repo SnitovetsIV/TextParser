@@ -1,0 +1,31 @@
+30.06.2014 17:55:39 [main] ERROR by.snitovets.textparser.main.Main  - by.snitovets.textparser.exception.TechnicalException: File teaxts\inText.txt not found
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 1.
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 1.1.
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 1.2.
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 90%
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 80%
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - 
+30.06.2014 18:57:26 [main] DEBUG by.snitovets.textparser.logic.action.Action  - =
+01.07.2014 01:51:07 [main] INFO  by.snitovets.textparser.main.Main  - by.snitovets.textparser.exception.TechnicalException: File textas\inText.txt not found
+01.07.2014 01:51:29 [main] INFO  by.snitovets.textparser.main.Main  - File textas\inText.txt not found

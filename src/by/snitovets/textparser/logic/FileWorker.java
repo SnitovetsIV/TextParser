@@ -45,7 +45,7 @@ public class FileWorker {
         } catch (FileNotFoundException e) {
             throw new TechnicalException("File " + fileName + " not found", e);
         } catch (IOException e) {
-            throw new TechnicalException("IOException", e);
+            throw new TechnicalException("IOException in putTextToFile", e);
         } finally {
             if (out != null) {
                 out.close();

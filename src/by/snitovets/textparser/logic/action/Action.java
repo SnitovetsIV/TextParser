@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by Илья on 27.06.2014.
@@ -19,7 +21,9 @@ public class Action {
 
     private static final Logger LOG = Logger.getLogger(Action.class);
 
-    private static final String VOWELS = "aeiouyjAEIOUYJ";
+    private static final String VOWELS = "aeiouyAEIOUY";
+
+    private static String letterPattern = "\\w";
 
     public static ArrayList<String> sortWordsByProportionOfVowels(Composite text) throws LogicException {
         if (text == null) {
@@ -33,12 +37,18 @@ public class Action {
 
     private static double propVowels(String word) {
         int countOfVowels = 0;
+        int countOfLetters = 0;
         for (int i = 0; i < word.length(); i++) {
             if (VOWELS.indexOf(word.charAt(i)) != -1) {
                 countOfVowels++;
             }
         }
-        return (double) countOfVowels / word.length();
+        Pattern pattern = Pattern.compile(letterPattern);
+        Matcher mat = pattern.matcher(word);
+        while (mat.find()) {
+            countOfLetters++;
+        }
+        return (double) countOfVowels / countOfLetters;
     }
 
     private static ArrayList<String> getWordsFromComposite(Composite composite) {
